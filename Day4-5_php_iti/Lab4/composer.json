@@ -1,0 +1,14 @@
+{
+    "name": "simple/verysimple",
+    "description": "simplr project",
+    "license": "MIT",
+
+
+    "require": {
+        "illuminate/database" :"*"
+    },
+    "autoload": {
+        "classmap": ["Model"],
+        "files": ["config.php"]
+    }
+} 
